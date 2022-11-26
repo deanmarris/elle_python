@@ -1,0 +1,10 @@
+md5: 3f80310e1758d12b00ca492ef399b8b5
+frozen: true
+deps:
+- checksum: '"d89bd115a117275412441d3fb9c8f15b"'
+  size: 5881
+  path: https://code.dvc.org/get-started/code.zip
+outs:
+- md5: d89bd115a117275412441d3fb9c8f15b
+  size: 5881
+  path: code.zip
