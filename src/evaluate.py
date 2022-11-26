@@ -9,6 +9,10 @@ from sklearn import metrics
 from sklearn import tree
 from dvclive import Live
 from matplotlib import pyplot as plt
+import dvc.api
+
+
+
 
 
 if len(sys.argv) != 3:
@@ -77,3 +81,4 @@ with Live("evaluation") as live:
     axes.set_ylabel("Mean decrease in impurity")
     forest_importances.plot.bar(ax=axes)
     fig.savefig(os.path.join("evaluation", "plots", "importance.png"))
+
